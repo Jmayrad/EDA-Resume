@@ -1,0 +1,46 @@
+body {
+ background: lavender; 
+}
+
+p {
+  font-style: italic;
+  text-indent: 20px;
+  }
+
+h4 {
+  text-indent: 10px;
+  margin: 0px;
+  color: tomato;
+  }
+
+
+.dates {
+    text-align: right;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.columns {
+  float: left;
+  width: 50%;
+  font-style: italic;
+  text-indent: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html {
+  color: teal;
+}
+
+.header {
+  text-indent: 5px;
+}
